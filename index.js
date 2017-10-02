@@ -16,3 +16,10 @@ function johnLennonFacts(arrayFacts) {
   }
   return exclamationFacts
 }
+function iLoveTheBeatles(number) {
+  var loveBeatles = []
+  do {
+    loveBeatles.push("I love the Beatles!")
+    number ++
+  } while(number < 15)
+}
