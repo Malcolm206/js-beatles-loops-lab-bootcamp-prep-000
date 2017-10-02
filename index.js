@@ -12,7 +12,7 @@ function johnLennonFacts(arrayFacts) {
   while(counter > 0) {
     exclamationFacts.push(arrayFacts[c] + "!!!")
     c++
-    counter++
+    counter--
   }
   return exclamationFacts
 }
