@@ -5,3 +5,14 @@ function theBeatlesPlay(array1, array2) {
   }
   return newarray
 }
+function johnLennonFacts(arrayFacts) {
+  var exclamationFacts = []
+  var c = 0
+  var counter = arrayFacts.length
+  while(counter > 0) {
+    exclamationFacts.push(arrayFacts[c] + "!!!")
+    c++
+    counter++
+  }
+  return exclamationFacts
+}
